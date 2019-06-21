@@ -1,0 +1,179 @@
+ html,
+      body,
+ #background {
+	  	background-color: antiquewhite;
+	  }
+#viewDiv {
+       position: absolute;
+       top: 0px;
+       bottom: 0px;  
+       height: 100%;
+       width: 100%;
+       z-index: -1;
+	   overflow: hidden;
+      }
+#viewDiv2 {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0%;
+	z-index: 1;
+	overflow: hidden;
+	  }
+#overviewDiv {
+        position: absolute;
+        bottom: 12px;
+        right: 0px;
+        width: 300px;
+        height: 200px;
+        border: 1px solid black;
+        z-index: 1;
+        overflow: hidden;
+      }
+#coordsWidget{
+	padding: 7px 15px 5px;
+	bottom: 15px;	
+	right: 500px;
+	background-color: #ADD8E6;
+	opacity: 0.75;
+	border: 10px;
+	border-color: #8F9DB3;
+}
+    
+ div audio {
+  	position: absolute;
+  	left: 170px;
+  	bottom: 10px;
+		width: 240px;
+		opacity: 0.75;
+  } 
+   .daohang1 {
+   	position: absolute;
+   	margin: 0;
+   	height: 50%;
+   	left: 0px;
+   	top: 0px;
+   	width: 150px;
+   	background-color: #81C0C0;
+   	border: 10px solid #BFBFBF;
+   }
+   .daohang2 {
+   	position: absolute;
+   	height: 50%;
+   	left: 0px;
+   	margin-top: 350px;
+   	width: 150px;
+   	background-color: #C48888;
+   	border: 10px solid #BFBFBF;
+   }
+   .id1 {
+   	font-family: "黑体";
+   	font-size: larger;
+   	font-weight: bolder;
+   	display: block;
+   	margin-top: 100px;
+   	margin-left: 25px;
+   }
+   .id2 {
+   	font-family: "黑体";
+   	font-size: larger;
+   	font-weight: bolder;
+   	display: block;
+   	margin-top: 100px;
+   	margin-left: 25px;
+   }
+   li a {
+   	color: black;
+   	text-align: center;
+   	text-decoration: none;
+   }
+   li a:hover {
+   	background-color: lightblue;
+   }
+   div.polaroid {
+   	width: 320px;
+   	height: 280px;
+   	padding: 10px 10px 20px 10px;
+   	border: 1px solid #BFBFBF;
+   	background-color: burlywood;
+   	/* Add box-shadow */
+   	box-shadow: 5px 5px 3px #aaaaaa;
+   	font-family: "楷体";
+   	font-weight: bolder;
+   	top: 0px;
+   	text-align: center;
+   }
+   div p {
+   	text-align: left;
+   }
+   div.first {
+   	position: absolute;
+   	margin-left: 160px;
+   }
+   div.two {
+   	position: absolute;
+   	margin-left: 500px;
+   }
+   div.third {
+   	position: absolute;
+   	margin-left: 840px;
+   }
+   div.forth {
+   	position: absolute;
+   	margin-left: 1170px;
+   }
+   div.fifth {
+   	position: absolute;
+   	margin-left:160px;
+   	margin-top:314px ;
+   }
+   div.sixth {
+   	position: absolute;
+   	margin-left:500px;
+   	margin-top:314px ;
+   }
+   div.seventh {
+   	position: absolute;
+   	margin-left:840px;
+   	margin-top:314px ;
+   }
+   div.eighth {
+   	position: absolute;
+   	margin-left:1170px;
+   	margin-top:314px ;
+   }
+   div.ninth {
+   	position: absolute;
+   	margin-left:160px;
+   	margin-top:628px ;
+   }
+   div.tenth {
+     position: absolute;
+   	margin-left:500px;
+   	margin-top:628px ;
+   }
+   div.eleventh {
+   	position: absolute;
+   	margin-left:840px;
+   	margin-top:628px ;
+   }
+   div.twelfth {
+   	position: absolute;
+   	margin-left:1170px;
+   	margin-top:628px ;
+   }
+   #mapmove{
+   	    top: 10px;
+   	    right: 10px;
+   	    position: absolute;
+   	    z-index: 99;
+   	    background-color: white;
+   	    border-radius: 8px;
+   	    padding: 10px;
+   	    opacity: 0.75;
+   		height:30px;
+   		line-height:30px;
+   	  }
+  
